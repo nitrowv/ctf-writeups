@@ -104,7 +104,7 @@ Opening the program in Hopper makes this part of the code a bit easier to unders
                             bVar1 = 0x0;
                     }
                     local_234 = local_234 + 0x1;
-                }
+                } while (true);
 ```
 
 `rsi` is the value at the address  `(local_234 + 0x10e090) & 0xff`, which leads us to:
