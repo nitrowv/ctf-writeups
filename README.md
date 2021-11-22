@@ -1,5 +1,5 @@
 # ctf-writeups
 Writeups from various CTFs that I do.
 
-### Partially Uploaded:
+### Fully Uploaded:
 - HackTheBox Uni CTF 2021
