@@ -19,4 +19,4 @@ otips
 name
 ```
 
-It took quite a while to fit the pieces together in the right order, but there were some parts that were easily decipherable. I was able to gather `Asocialnetworkuses` relatively quickly, but I was initallt stumped on the order of the last bit, specifically over the placement of names and notips. Eventually, I got it in the right order and the correct flag is: `bsftw{ASocialNetworkUsesNamesNotIpsBro}`.
+It took quite a while to fit the pieces together in the right order, but there were some parts that were easily decipherable. I was able to gather `Asocialnetworkuses` relatively quickly, but I was initially stumped on the order of the last bit, specifically over the placement of names and notips. Eventually, I got it in the right order and the correct flag is: `bsftw{ASocialNetworkUsesNamesNotIpsBro}`.
