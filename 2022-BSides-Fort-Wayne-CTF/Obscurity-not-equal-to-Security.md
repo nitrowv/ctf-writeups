@@ -59,7 +59,7 @@ basic_string::_M_construct null not valid
 ;*3$"
 ```
 
-We can see a flag prefix and a string above it which doesn't really make sense. There is also a helpful hint in the form of "Where do you computers start counting?". Since many programming languages do not start counting at 0 instead of 1, maybe we could try that as an input?
+We can see a flag prefix and a string above it which doesn't really make sense. There is also a helpful hint in the form of "Where do you computers start counting?". Since many programming languages start counting at 0 instead of 1, maybe we could try that as an input?
 
 ```
 ┌──(tanner㉿kali)-[~/ctf/bsides]
