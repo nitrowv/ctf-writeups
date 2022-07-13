@@ -8,7 +8,7 @@ Opening the file in LibreOffice Calc, we are greeted by this screen:
 
 ![Opening the spreadsheet](assets/img/sabotage/open.png)
 
-At first glance, it appears that there is nothing of interest other than this image that has been overlayed onto the sheet, however, looks can be decieving...
+At first glance, it appears that there is nothing of interest other than this image that has been overlayed onto the sheet, however, looks can be deceiving...
 
 ![Opening the spreadsheet](assets/img/sabotage/sheets.png)
 
@@ -26,7 +26,7 @@ Knowing that there were macros in this document, I opted to use some command-lin
 
 ![oleid](assets/img/sabotage/oleid.png)
 
-Knowing that we're dealing with an XLM macro, I did a bit of digging and found [XLMMacroDeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator), a tool created by DisectMalware on GitHub. The script is written in Python and has the ability to not only deobfuscate any macros that it finds, but also output them in the terminal as well as to a JSON file. For the latter, we do this by using the command `xlmdeobfuscator --file congratulations.xlsm --export-json output.json`.
+Knowing that we're dealing with an XLM macro, I did a bit of digging and found [XLMMacroDeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator), a tool created by DissectMalware on GitHub. The script is written in Python and has the ability to not only deobfuscate any macros that it finds, but also output them in the terminal as well as to a JSON file. For the latter, we do this by using the command `xlmdeobfuscator --file congratulations.xlsm --export-json output.json`.
 
 ```
 XLMMacroDeobfuscator(v0.2.5) - https://github.com/DissectMalware/XLMMacroDeobfuscator
